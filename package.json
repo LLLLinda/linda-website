@@ -1,0 +1,29 @@
+{
+    "comments": {
+        "dependencies": {},
+        "devDependencies": {}
+    },
+    "scripts": {
+        "clean": "rm -f static/*.js static/*.css",
+        "babel:build": "babel assets/js --out-file static/site.js --source-maps",
+        "babel:watch": "babel assets/js --watch --out-file static/site.js --source-maps",
+        "sass:watch": "onchange 'assets/scss/**/*.scss' -- npm run sass:build",
+        "sass:build": "node-sass --include-path node_modules/bootstrap-sass/assets/stylesheets assets/scss/main.scss static/site.css",
+        "build:assets": "npm run clean && npm run sass:build && npm run babel:build",
+        "build": "npm run build:assets && hugo",
+        "build:aerobatic": "npm run build:assets && hugo --baseURL https://background.studiosbuild.tk",
+        "start": "npm run clean && npm run sass:build && npm run babel:build && parallelshell 'npm run sass:watch' 'npm run babel:watch' 'npm run develop'",
+        "develop": "hugo serve -p 21313"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "bootstrap-sass": "^3.4.1",
+        "babel-cli": "^6.26.0",
+        "hugo-bin": "^0.68.0",
+        "node-sass": "^5.0.0",
+        "onchange": "^7.1.0",
+        "parallelshell": "3.0.1"
+    },
+    "name": "linda-website",
+    "version": "0.1.0"
+}
