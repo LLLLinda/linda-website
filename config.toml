@@ -1,3 +1,30 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "hugo.386"
+title = "Everything about Cheung Tsz Kwan"
+[params]
+    mainpagetitle = "Cheung Tsz Kwan"
+    github = "https://github.com/LLLLinda"
+    loadfastload = false
+    loadonepass = true
+    loadspeedfactor = 1.0
+    mainpagedesc = "Look at life with a smile, you will realize a wonderful world of fun."
+    mainpagesubtitle = "Welcome to Linda's 2000!"
+    showhugo = false    
+    customCSS = ["/site.css"]
+    customJS = ["/site.js"]
+
+[params.copyright]
+    name = "LLLLinda"
+    suffix = "[Personal site](https://github.com/LLLLinda)"
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 10
+    [[menu.main]]
+        identifier = "action"
+        name = "Action"
+        url = "/action/"
+        weight = 20
