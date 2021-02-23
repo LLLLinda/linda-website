@@ -5,3 +5,5 @@ static/*.js
 static/*.js.map
 
 .devcontainer
+resources/_gen/*
+resources/_gen/*

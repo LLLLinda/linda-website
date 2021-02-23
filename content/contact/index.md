@@ -1,13 +1,12 @@
 ---
-title: "Linda, System Analyst"
-description: "Tsz Kwan, Cheung +852 6856 9152 | lindacheung512@gmail.com | GitHub: LLLLinda"
-aliases: ['contact', 'cover-letter', 'cv', 'resume']
-tags: ['cv']
-date: 2021-01-18T18:44:02+08:00
+title: "Online resumé"
+date: 2021-02-22T23:04:42+08:00
+showInMenu: true
+tags: ["about"]
+summaryImage: "image/index/1614011256828.png"
+summary: "Linda, System Analyst"
 ---
 # Education
-
-
 
 The Hong Kong University of Science and Technology
 {{< float-right>}}
@@ -33,11 +32,7 @@ Class of 2020
 
 ---
 
-
-
 # Work Experience
-
-
 
 ## Analyst Programmer @ Inspiring Light Electronic Software Development Ltd.
 
@@ -85,11 +80,7 @@ Information Technology
 
 ---
 
-
-
 # Project Experience
-
-
 
 ## Blockchain Database Application
 
@@ -98,7 +89,6 @@ May 2019- May 2020
 {{</ float-right>}}
 FYP Project, Big Data Technology
 
-
 • Running domestic helper agency applications at a low cost that do not require to rely on any central entity.
 
 • Build rich permissions management, allow trusted nodes to review transactions to improve platform credibility.
@@ -106,8 +96,6 @@ FYP Project, Big Data Technology
 • Adopt high-capacity decentralized database, capacity increases with the number of franchisees.
 
 ---
-
-
 
 # Leadership Experience
 

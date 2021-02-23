@@ -1,0 +1,130 @@
+# remove integrity="sha256-(.)+" before deploy
+baseURL: https://LLLLinda.github.io/linda-website
+languageCode: en-us
+title: Personal website
+theme: hugo-refresh
+DefaultContentLanguage: en
+disableKinds: ["sitemap","RSS"]
+# Option to specify that all links will be open in a new tab.
+blackfriday:
+  hrefTargetBlank: true
+Taxonomies:
+  tag: "tags"
+params:
+  # parameter used to specify the number of article in each row 
+  # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
+  articlesPerRow: 3 
+
+  # option to specify the favicon image of the site
+  # the path is relative to the folder "assetDir" of this configuration
+  favicon: "/images/favicon.svg"
+  jsMinify: true
+  cssMinify: true
+  cssIntegrity: true
+  jsIntegrity: true
+  mainColour: "#0a1922"
+  summary:
+    defaultImage : "/images/default_summary.jpg"
+  loading:
+    image: "/images/loaders/rings.svg"
+  mainPage:
+    fontFamily: "Ubuntu" 
+  sidebar:
+    logo: "/images/refresh-square.svg"
+    fontFamily: "Ubuntu"
+  navbar:
+    fontFamily: "Ubuntu"
+    showIcons: false
+  pagNotFound:
+    image: "/images/avataaars_404.png"
+    title: 404 Page Not Found :(
+    subtitle: This is not the page you were looking for...
+    imageWidth: 500px
+  homepage:
+    title: Linda Cheung
+    linkPosition: "menu+footer" 
+    subtitle: Personal website
+    image: "/images/avataaars.png" # worker.svg 
+    imageWidth: 500px
+  footer:
+    logo: "/images/refresh-square.svg"
+    email: 
+      link: lindacheung512@gmail.com
+      title: My Email
+    # option to specify your linkedin profile in the footer
+    # linkedin: 
+    #   link: your_linkedin_profile
+    #   title: My LinkedIn
+    # option to specify your facebook account in the footer; 
+    # **uncomment** the lines below to show in footer
+    # facebook: 
+    #   link: your.username
+    #   title: Facebook
+    # option to specify your github account in the footer; 
+    # **uncomment** the below lines to show in footer
+    github: 
+      link: LLLLinda
+      title: Github
+    # option to specify your twitter username in the footer; 
+    # **uncomment** the below lines to show in footer
+    # twitter: 
+    #    link: username
+    #    title: Twitter
+    # option to specify your instagram username in the footer; 
+    # **uncomment** the below lines to show in footer
+    # instagram: 
+    #    link: username
+    #    title: Instagram
+    # option to specify the copyright in the footer
+    copyright: Linda Cheung - 2021
+
+###################################################################
+################## multilanguage support options ##################
+###################################################################
+languages:
+  en:
+    languageName:       English
+    weight:             1
+  zh:
+    languageName:       Chinese
+    weight:             2
+    # When Specifying different parameters for a different language 
+    # you need to specify all the mandatory sub-parameters as well.
+    # E.g.: if you specify the "homepage" parameter then you need to
+    #       specify all mandatory sub-parameters, e.g.: "title". 
+    # See example below:
+    params:
+      homepage:
+        linkPosition: "menu+footer" 
+        title: 我叫Linda
+        subtitle: 歡迎來到我的博客
+        image: "/images/avataaars.png" # worker.svg 
+        imageWidth: 500px
+      
+      # Some sub-parameters of the "footer" parameter
+      # can be omitted because the code allows for them to be 
+      # missed but they will treated as they do not exist,
+      # i.e., the parameters of the default language
+      # won't be inherited.
+      footer:
+        logo: "/images/refresh-square.svg"
+        email: 
+          link: имяФамилия@доменCom
+          title: 電郵
+        # linkedin: 
+        #   link: your_linkedin_profile
+        #   title: 領英
+        # facebook: 
+        #   link: your.username
+        #   title: Facebook 
+        # twitter: 
+        #   link: username
+        #   title: Twitter
+        # instagram: 
+        #   link: username
+        #   title: Instagram
+        github: 
+          link: LLLLinda
+          title: Github
+        copyright: Linda Cheung - 2020
+      
