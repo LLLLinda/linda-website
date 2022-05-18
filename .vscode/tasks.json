@@ -41,17 +41,17 @@
 		{
 			"type": "npm",
 			"script": "install",
-			"group": "clean",
 			"problemMatcher": [],
 			"label": "npm: install",
 			"detail": "install dependencies from package"
 		},
 		{
 			"type": "npm",
-			"script": "start:skipclean",
+			"script": "build:skipclean",
+			"group": "build",
 			"problemMatcher": [],
-			"label": "npm: start:skipclean",
-			"detail": "npm run sass:build && npm run babel:build && npm run sass:watch & npm run babel:watch & npm run develop"
+			"label": "npm: build:skipclean",
+			"detail": "npm run sass:build && npm run babel:build"
 		}
 	]
 }
