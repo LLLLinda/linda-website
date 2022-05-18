@@ -1,5 +1,7 @@
 # remove integrity="sha256-(.)+" before deploy
 baseURL: https://LLLLinda.github.io/linda-website
+relativeURLs: true
+canonifyURLs: true
 languageCode: en-us
 title: Personal website
 theme: hugo-refresh
@@ -76,7 +78,7 @@ params:
     #    link: username
     #    title: Instagram
     # option to specify the copyright in the footer
-    copyright: Linda Cheung - 2021
+    copyright: Linda Cheung - 2022
 
 ###################################################################
 ################## multilanguage support options ##################
@@ -109,7 +111,7 @@ languages:
       footer:
         logo: "/images/refresh-square.svg"
         email: 
-          link: имяФамилия@доменCom
+          link: lindacheung512@gmail.com
           title: 電郵
         # linkedin: 
         #   link: your_linkedin_profile
@@ -126,5 +128,5 @@ languages:
         github: 
           link: LLLLinda
           title: Github
-        copyright: Linda Cheung - 2020
+        copyright: Linda Cheung - 2022
       
