@@ -15,7 +15,7 @@
         "build:aerobatic": "npm run build:assets && hugo --baseURL https://background.studiosbuild.tk --minify",
         "start:linux": "npm run clean && npm run sass:build && npm run babel:build && parallelshell 'npm run sass:watch' 'npm run babel:watch' 'npm run develop'",
         "start:skipclean": "npm run sass:build && npm run babel:build && npm run sass:watch & npm run babel:watch & npm run develop",
-        "develop": "hugo serve -p 21313",
+        "develop": "hugo serve -p 21313 -v",
         "deploy": "gh-pages -d public"
     },
     "devDependencies": {

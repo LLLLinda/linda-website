@@ -15,8 +15,10 @@
 		{
 			"label": "clone submodule",
 			"type": "shell",
-			"command": "git submodule update",
+			"command": "git",
 			"args": [
+				"submodule",
+				"update",
 				"--init"
 			],
 			"problemMatcher": []
@@ -28,6 +30,28 @@
 			"problemMatcher": [],
 			"label": "npm: build",
 			"detail": "npm run build:assets && hugo"
+		},
+		{
+			"type": "npm",
+			"script": "start:linux",
+			"problemMatcher": [],
+			"label": "npm: start:linux",
+			"detail": "npm run clean && npm run sass:build && npm run babel:build && parallelshell 'npm run sass:watch' 'npm run babel:watch' 'npm run develop'"
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install",
+			"detail": "install dependencies from package"
+		},
+		{
+			"type": "npm",
+			"script": "start:skipclean",
+			"problemMatcher": [],
+			"label": "npm: start:skipclean",
+			"detail": "npm run sass:build && npm run babel:build && npm run sass:watch & npm run babel:watch & npm run develop"
 		}
 	]
 }
