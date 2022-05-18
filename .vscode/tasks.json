@@ -20,6 +20,14 @@
 				"--init"
 			],
 			"problemMatcher": []
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "npm run build:assets && hugo"
 		}
 	]
 }

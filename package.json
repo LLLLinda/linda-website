@@ -11,6 +11,7 @@
         "sass:build": "node-sass --include-path node_modules/bootstrap-sass/assets/stylesheets assets/scss/main.scss static/site.css",
         "build:assets": "npm run clean && npm run sass:build && npm run babel:build",
         "build": "npm run build:assets && hugo",
+        "build:github-page": "npm run build:assets && hugo --baseURL https://LLLLinda.github.io --minify",
         "build:aerobatic": "npm run build:assets && hugo --baseURL https://background.studiosbuild.tk --minify",
         "start:linux": "npm run clean && npm run sass:build && npm run babel:build && parallelshell 'npm run sass:watch' 'npm run babel:watch' 'npm run develop'",
         "start:skipclean": "npm run sass:build && npm run babel:build && npm run sass:watch & npm run babel:watch & npm run develop",

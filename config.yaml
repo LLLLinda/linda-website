@@ -22,8 +22,6 @@ params:
   favicon: "/images/favicon.svg"
   jsMinify: true
   cssMinify: true
-  cssIntegrity: true
-  jsIntegrity: true
   mainColour: "#0a1922"
   summary:
     defaultImage : "/images/default_summary.jpg"
