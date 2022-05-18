@@ -11,6 +11,15 @@
 				"kind": "build",
 				"isDefault": true
 			}
+		},
+		{
+			"label": "clone submodule",
+			"type": "shell",
+			"command": "git submodule update",
+			"args": [
+				"--init"
+			],
+			"problemMatcher": []
 		}
 	]
 }
