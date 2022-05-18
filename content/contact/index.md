@@ -1,10 +1,10 @@
 ---
 title: "Online resumé"
-date: 2021-02-22T23:04:42+08:00
+date: 2022-05-18T09:21:21+08:00
 showInMenu: true
 tags: ["about"]
 summaryImage: "image/index/1614011256828.png"
-summary: "Linda, System Analyst"
+summary: "Linda, Blockchain Developer"
 ---
 # Education
 
@@ -34,10 +34,26 @@ Class of 2020
 
 # Work Experience
 
+## Blockchain Developer@Blockchain Solutions Ltd.
+
+{{< float-right>}}
+May 2021- Present
+{{</ float-right>}}
+
+Blockchain Solution
+
+• Participate in designing front-end process, back-end, relational database and smart contract design for blockchain applications.
+
+• Developed user login for blockchain document management system and java backend for Ldap Active Directory user management.
+
+• Developed java backend and HLF SDK for mobile application and QR code traceability system for traditional Chinese medicine production management.
+
+• Developed and deployed blockchain invoicing system for HLF transaction verifier smart contract, developed erc20 token and deploy to ethereum testnet.
+
 ## Analyst Programmer @ Inspiring Light Electronic Software Development Ltd.
 
 {{< float-right>}}
-Jul 2018- Present
+June 2020- May 2021
 {{</ float-right>}}
 
 Software Development
@@ -53,7 +69,7 @@ Software Development
 ## Project Intern @ Codeperate
 
 {{< float-right>}}
-Oct 2018- May 2018
+Oct 2019 - May 2020
 {{</ float-right>}}
 
 Software Engineering
@@ -121,6 +137,6 @@ Participant, Student Section
 
 Language: Cantonese (Native); English and Mandarin (Fluent); Japanese (Beginner)
 
-Programming Lang.: C++, C#, Java, Python, JavaScript, TypeScript
+Programming Lang.: Java, JavaScript, TypeScript, Golang, Python, C++, .net, rust
 
-Certification: TOELC Intermediate, JLPT Japanese N5 certification
+Certification: AWS Certified Associate Solutions Architect, TOELC Intermediate, JLPT Japanese N5 certification

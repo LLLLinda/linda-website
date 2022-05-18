@@ -1,10 +1,10 @@
 ---
 title: "求職簡歷"
-date: 2021-02-22T23:04:42+08:00
+date: 2022-05-18T09:21:21+08:00
 showInMenu: true
 tags: ["about"]
 summaryImage: "image/index/1614011256828.png"
-summary: "Linda, 系統分析員"
+summary: "Linda, 區塊鏈開發人員"
 ---
 # 教育
 
@@ -34,10 +34,26 @@ summary: "Linda, 系統分析員"
 
 # 工作經驗
 
-## 系統分析@啟榮電子軟件開發有限公司
+## 區塊鏈開發人員@區塊鏈科研
 
 {{< float-right>}}
-Jul 2018-
+May 2021- Present
+{{</ float-right>}}
+
+區塊鏈方案開發
+
+•參與設計區塊鏈應用的前端流程、後端、關係型數據庫與智能合約設計。
+
+•開發區塊鏈文件管理系統的用戶登陸與Ldap Active Directory用戶管理的java後端。
+
+•開發傳統中藥生產管理手機應用與二維碼溯源系統的後端與HLF SDK開發。
+
+•開發和部署區塊鏈發票系統的HLF驗證交易智能合約，開發erc20 token並部署到以太坊testnet。
+
+## 分析程序員@啟榮電子軟件開發有限公司
+
+{{< float-right>}}
+June 2020- May 2021
 {{</ float-right>}}
 
 軟件開發
@@ -53,7 +69,7 @@ Jul 2018-
 ## IT實習@Codeperate
 
 {{< float-right>}}
-Oct 2018- May 2018
+Oct 2019 - May 2020
 {{</ float-right>}}
 
 軟件工程
@@ -64,7 +80,7 @@ Oct 2018- May 2018
 
 •通過webRTC開發低延遲監控webapp。
 
-## Web開發@中國人壽
+## Web開發人員@中國人壽
 
 {{< float-right>}}
 Jun 2019- Sep 2019
@@ -124,6 +140,6 @@ Sep 2016
 
 語言：廣東話（母語）；英語和普通話（流利）；日語（入門）
 
-編程語言：C++, .net, Java, Python, JavaScript, TypeScript
+編程語言：Java, JavaScript, TypeScript, Golang, Python, C++, .net, rust
 
-認證：TOELC Intermediate，JLPT N5
+認證：AWS Certified Associate Solutions Architect, TOELC Intermediate，JLPT N5
