@@ -1,7 +1,7 @@
 ---
 summaryImage: "image/index/aws_saa.2022-05-18_13-01-18.png"
 summary: "我在工作期間使用cloud service較on premise的情況為多，因此我備考了相關課程並通過了考試。"
-title: "Aws 認證助理級解決方案架構師"
+title: "通過Aws認證助理級解決方案架構師"
 date: 2022-05-18T12:39:54+08:00
 ---
 
